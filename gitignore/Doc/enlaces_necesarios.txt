@@ -1,0 +1,38 @@
+https://discord.com/channels/1027688761577963650/1076143280640770139   
+
+https://www.python.org/downloads/
+
+Para descargar git:
+https://git-scm.com/downloads
+
+PS C:\INFORMATORIO> git init
+Initialized empty Git repository in C:/INFORMATORIO/.git/
+PS C:\INFORMATORIO> git status
+No commits yet
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        enlaces_necesarios.txt
+        test.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+PS C:\INFORMATORIO> git remote add origin https://github.com/nancydeb/inf-2024-e2-c4.git
+PS C:\INFORMATORIO> git remote -v
+origin  https://github.com/nancydeb/inf-2024-e2-c4.git (fetch)
+origin  https://github.com/nancydeb/inf-2024-e2-c4.git (push)
+PS C:\INFORMATORIO> git add .
+PS C:\INFORMATORIO> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   enlaces_necesarios.txt
+        new file:   test.py
+
+PS C:\INFORMATORIO> git commit -m "Inicial commit"
+[master (root-commit) 72ad319] Inicial commit
+ 2 files changed, 31 insertions(+)
+ create mode 100644 enlaces_necesarios.txt
+ create mode 100644 test.py   
