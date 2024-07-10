@@ -35,4 +35,4 @@ PS C:\INFORMATORIO> git commit -m "Inicial commit"
 [master (root-commit) 72ad319] Inicial commit
  2 files changed, 31 insertions(+)
  create mode 100644 enlaces_necesarios.txt
- create mode 100644 test.py       
+ create mode 100644 test.py    
