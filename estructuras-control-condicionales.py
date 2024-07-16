@@ -26,3 +26,15 @@ else:
     print("No se cumplio ninguna de las opciones")
 
 
+##################################
+color_1= 'Blanco'
+color_2= 'Negro'
+color_3= 'Blanco'
+
+if color_1==color_2:
+    print ('Los colores 1 y 2 son iguales.')
+elif color_1==color_3:
+    print('Los colores 1 y 3 son iguales.')
+else:
+    print('Los colores 2 y 3 son iguales.')
+   
