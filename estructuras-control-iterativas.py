@@ -22,7 +22,10 @@ for elemento in conjuntos:
         print("Estoy utilizando el elemento 5 en este momento")
         break
 
-
+diccionario= {'Juan':16345678, 'Marianela': 23456987, 'Josefa': 34596700}
+for nombre, num_doc in diccionario.items():
+    print(nombre, num_doc)
+    
 ##########################################
 #while en python
 i=1
@@ -36,4 +39,7 @@ for i in range(1, 11):
     print(i)
 
 
+diccionario= {'Juan':16345678, 'Marianela': 23456987, 'Josefa': 34596700}
+for nombre, num_doc in diccionario.items():
+    print(nombre, num_doc)
     
