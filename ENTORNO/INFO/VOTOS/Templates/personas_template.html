@@ -5,7 +5,7 @@
 
 {% block contenido %}
 
-    <link rel="stylesheet" href="{% static 'votos/style.css' %}">
+<link rel="stylesheet" href="{% static 'votos/style.css' %}">
     <title>{{ title }}</title>
     {% if personas_list %}  <!-- Si existe algun dato en personas_list hace lo de abajo -->
         <h1>Existen personas en personas_list</h1>
@@ -25,7 +25,7 @@
         {% endfor %}
         </table>
     {% else %}
-        <h1>No EXISTEN perosnas en personas_list</h1>
+        <h1>No EXISTEN personas en personas_list</h1>
     {% endif %}
 
 {% endblock contenido %}

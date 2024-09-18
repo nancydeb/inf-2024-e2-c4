@@ -11,6 +11,12 @@ td {
     font-family: "Poppins", sans-serif;
 }
 
-body {
-    background: white, url("votos/images/mando.jpg");
+h1 {
+ background-color: aquamarine;
+}
+.centrar {
+    background-color: aqua;
+}
+.bloque {
+    background-image: url("images/mando.jpg");
 }
