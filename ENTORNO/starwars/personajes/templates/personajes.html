@@ -1,4 +1,5 @@
-<h1> Personajes cargados </h1>
+<h1>Personajes cargados</h1>
+<a href="{% url 'pj:carga_personaje' %}">Agregar personaje</a>
 <ul>
     {% if personajes_list %}
         {% for personaje in personajes_list %}
@@ -6,6 +7,7 @@
             <h3>Alias: {{ personaje.alias }}</h3>
             <h4>Casa: {{ personaje.casa }}</h4>
             <img src="{{ personaje.foto.url }}" alt="Img" width="250"/>
+           
         </div>
         {% endfor %}
     {% else %}
